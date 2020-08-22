@@ -1,0 +1,35 @@
+/* exsite um css default nas paginas html
+o selector <hr> foi construido com as propriedades existentes por default
+no nosso browser e depois alteradas:
+https://www.w3schools.com/cssref/css_default_values.asp
+
+por exemplo o selector <hr> tem estas:
+
+display: block;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: auto;
+margin-right: auto;
+border-style: inset;
+border-width: 1px;
+
+*/
+
+body{
+    background-color: rgb(194, 194, 243);
+}
+h1{
+    color: rgba(69, 44, 114, .7);
+
+}
+h3{
+    color: #f7f2e7;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 50%;
+}

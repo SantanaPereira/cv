@@ -1,0 +1,38 @@
+{
+	/*  para este workspace javascript instalei as seguintes extensões:
+	
+	esbenp.prettier-vscode
+    formulahendry.auto-close-tag
+	hex-ci.stylelint-plus
+	dbaeumer.vscode-eslint
+	naumovs.color-highlight
+	DigitalBrainstem.javascript-ejs-support
+	HTMLl-boilerplate
+	Beautify --> para usa F1 beutify selection..
+	
+
+	opcionais:
+	ritwickdey.LiveServer
+	file-icons
+	
+	*/
+
+	"folders": [{
+		"path": "."
+	}],
+	"settings": {
+
+
+		"css.validate": false,
+		"less.validate": false,
+		"scss.validate": false,
+
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+
+		"emmet.includeLanguages": {
+			"ejs": "html",
+		}
+	}
+}

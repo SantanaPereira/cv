@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <p>Caso pretenda receber um login (user+pass) </p>
+    <p>para aceder ao Dashboard PalmelaMeteo</p>
+    <p>por favor preencha os quadros seguintes :</p>
+    <!-- se usarmos GET ele passa a informação na linha a vai para index.html -->
+    <form action="index.html" method="POST" enctype="text/plain">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="lname"><br>
+        <label for="email">Email :</label><br>
+        <input type="email" required name="email" value="email"><br>
+        <label for="birthday">Birthday :</label><br>
+        <input type="date" id="birthday" name="birthday" value="birthday"><br><br>
+
+        <label for="local">I leve in :</label>
+        Portugal : <input type="radio" id="p" name="local" value="p"><br>
+        Out off Portugal:<input type="radio" id="op" name="local" value="op"><br><br>
+
+        <textarea name="Mensagem" id="" cols="30" rows="10"></textarea><br>
+
+        <br>
+        <label for="gender">Gender :</label><br>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset"><br>
+
+    </form>
+
+    <hr><br>
+    <p><a href="index.html">Pagina inicial</a></p>
+</body>
+
+</html>
+
