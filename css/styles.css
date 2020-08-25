@@ -15,24 +15,110 @@ border-width: 1px;
 
 */
 
-body{
+body {
     background-color: rgb(194, 194, 243);
+    /* text-align: center;*/
 }
-h1{
+
+h1 {
     color: rgba(69, 44, 114, .7);
 
 }
-h3{
+
+h3 {
     color: #f7f2e7;
 }
 
-hr{
+h5 {
+    position: relative;
+    bottom: 5px;
+}
+
+hr {
     border-style: none;
     border-top-style: dotted;
     border-color: grey;
     border-width: 5px;
-    width: 50%;
+    width: 100%;
 }
-.fundo{
+
+.fundo {
     background-color: rgb(194, 194, 243);
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+.logo1 {
+    position: relative;
+    display: inline-block;
+}
+
+.logo2 {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+
+}
+
+.logo3 {
+    /* position: relative;
+    top: 5px;
+    left: 50px; */
+
+}
+.logo4{
+    position: absolute;
+    top: 470px;
+    left: 168px;
+
+}
+
+.logo5 {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+
+}
+
+.logo6 {
+    position: relative;
+    top: 4px;
+}
+
+.logo7 {
+    /* position: relative;
+    top: 8px; */
+
+    display: inline-block;
+}
+
+ .curriculum {
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: #cad5eb;
+}
+
+.contact {
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: #cad5eb;
+}
+.registo {
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: #cad5eb;
+} 
+p{
+    display: inline-block;
 }

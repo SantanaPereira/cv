@@ -4,80 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>⚙ Control Page</title>
+    <title>Control Page</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="page.ico">
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img class="fundo" src="images/iot.png" alt="Free Plamela Meteo">
-            </td>
-            <td>
-                <h1>Painel de Controlo by Antonio M. Santana Pereira</h1>
-                <p><strong>Produção</strong> de unidades de <em>Remote Control by iot
-                        & Remote Data Collector</em>, also by iot</p>
-            </td>
-        </tr>
+    <div class="logo1">
+        <img class="fundo" src="images/iot.png" alt="Free Plamela Meteo">
+        <h5>Imagem baseada no trabalho de : Andrey Suslov</h5>
+    </div>
+    <div class="logo2">
+        <h2>Painel de Controlo </h2>
+        <h4>by Antonio M. Santana Pereira</h4>
+        <p><strong>Produção</strong> de unidades de <em>Remote Control by iot
+                & Remote Data Collector</em>, also by iot</p>
+    </div>
 
-    </table>
+    <div class="logo3">
+        <img class="circular" src="images/onda1_ico.png" alt="Sinal do tempo">
+        <pre>
+            O objectivo deste projecto será, afixar numa webPage
+             um conjunto de resultados, obtidos atrvés da recolha de valores
+             digitais e analogicos, usando plataformas de microcontroladores
+             da expressif e da atmel, tais como Esp32, Arduino e outras.
+             Os serviços MQTT, NodeRED, e MySQL estão alojados num RPi3B
+        </pre>
 
-    <table cellspacing="">
-        <tr>
-            <td>
-                <img src="images/onda1_ico.png" alt="Sinal do tempo">
-            </td>
-            <td>
-                <pre>
-                     O resultado deste projecto será, fixar numa webPage
-                      um conjunto de resultados, obtidos atrvés da recolha de valores
-                      digitais e analogicos, usando plataformas de microcontroladores
-                      da expressif e da atmel, tais como Esp32, Arduino e outras.
-               </pre>
-            </td>
-            <td>
-                <a href="dashboard.html"><img src="images/d1.png" alt="dashboard"></a>
-            </td>
-        </tr>
-    </table>
+    </div>
+    <div class="logo4">
+        Send to dashboard<img class="send" src="images/send.png" alt="Send To MQTT MySQL">
+    </div>
 
 
+    <div class="logo5">
+        <a href="dashboard.html"><img class="circular" src="images/d1.png" alt="dashboard"></a>
 
-    </p>
-    <hr size="3">
-    <h3>Exemplo 1:</h3>
-    <h4>Hardware usado:</h4>
-    <ol>
-        <li>
-            Sensor da Bosh BME280, sentor de temperatura Humidade e pressão Atmosférica
-        </li>
-        <li>
-            Sensor de efeito de Hall adaptado a dispositivo de detecção de velocidade do vento
-        </li>
-        <li>
-            Sensor de direcção do vento
-        </li>
-    </ol>
-    <ul>
-        <li>
-            Microcontrolador para ler estes sensores e enviar via WiFi as respectivas leituras
-            SOC Raspberry PI 3B - OS:Linux distro DEB.
-        </li>
-        <li>
-            <p>Software: webServer=Apache 2 - Brocker= MQTT - NODE-RED - Motor da Base de Dados= MySQL</p>
-        </li>
+    </div>
 
-    </ul>
+    <div class="logo6">
 
-    <p>Neste exemplo a "web page dashbord" será chamada, através de um link, nesta pagina</p>
+        <h4>Hardware usado:</h4>
+        <ol>
+            <li>
+                Sensor da Bosh BME280, sentor de temperatura Humidade e pressão Atmosférica
+            </li>
+            <li>
+                Sensor de efeito de Hall adaptado a dispositivo de detecção de velocidade do vento
+            </li>
+            <li>
+                Sensor de direcção do vento
+            </li>
+        </ol>
+        <ul>
+            <li>
+                Microcontrolador para ler estes sensores e enviar via WiFi as respectivas leituras
+                SOC Raspberry PI 3B - OS:Linux distro DEB.
+            </li>
+            <li>
+                <p>Software: webServer=Apache 2 - Brocker= MQTT - NODE-RED - Motor da Base de Dados= MySQL</p>
+            </li>
+        </ul>
 
-
+    </div>
     <br>
     <hr>
-    <p><a href="docs/CV_SantanaPereira.pdf">Curriculum V</a></p>
-    <p><a href="contact.html">Contactos</a></p>
-    <p><a href="register.html">Registo</a></p>
+    <div class="logo7">
+        <p><a class="curriculum" href="docs/CV_SantanaPereira.pdf">Curriculum_V</a></p>
+        <p><a class="contact" href="contact.html">Contactos</a></p>
+        <p><a class="registo" href="register.html">Registo</a></p>
+        <br>
+    </div>
 </body>
 
 </html>
